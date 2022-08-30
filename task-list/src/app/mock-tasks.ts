@@ -14,7 +14,7 @@ export const TASKS: Task[]=[
 },
 {
     id:3,
-    text:"Utilzar un date time input",
+    text:"Utilizar un date time input",
     day:'Septiembre 6 a las 20:00',
     reminder:false
 },
