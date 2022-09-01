@@ -1,5 +1,11 @@
 <div class="task"
- [ngClass]="{reminder: task.reminder}"
+
+
+[ngClass]="{reminder: task.reminder}"
+
+
+
+
  (click)="onToggle(task)">
     <h3>{{task.text}} 
         <fa-icon [icon]="faTimes"
@@ -8,7 +14,7 @@
         ></fa-icon>
     </h3>
     <p> 
-        {{task.day}}
+        {{task.day|date:'medium'}}
     </p>
     
 </div>

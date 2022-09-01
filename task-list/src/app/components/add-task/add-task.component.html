@@ -16,8 +16,11 @@ class="add-form"
     <div class="form-control">
         <label for="text">Day & Time</label>
         <input  
-        type="text" 
-        name="day" id="day" 
+        type="datetime-local" 
+        name="day" 
+        id="day" 
+        
+        min="2018-01-01"
         placeholder="Add Day & Time"
         [(ngModel)]="day"
         />

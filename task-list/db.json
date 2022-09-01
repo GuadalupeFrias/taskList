@@ -3,44 +3,62 @@
     {
       "id": 1,
       "text": "Terminar nuestro primer modulo de Angular",
-      "day": "Septiembre 5 a las 12:00",
-      "reminder": false
+      "day": "2022-05-07",
+      "reminder": true
     },
     {
       "id": 2,
       "text": "Ver a River Plate",
-      "day": "Septiembre 4 a las 20:00",
+      "day": "2022-09-03",
       "reminder": false
     },
     {
       "id": 3,
       "text": "Utilizar un date time input",
-      "day": "Septiembre 6 a las 20:00",
+      "day": "2022-09-06",
       "reminder": false
     },
     {
       "id": 4,
       "text": "Marcado de tareas proximas a vencer o vencidas",
-      "day": "Septiembre 7 a las 12:00",
+      "day": "2022-09-03",
       "reminder": false
     },
     {
       "id": 5,
       "text": "Festejar mi cumple",
-      "day": "Septiembre 27 a las 20:00",
+      "day": "2022-09-03",
       "reminder": false
     },
     {
       "id": 6,
       "text": "Continuar con el proyecto",
-      "day": "Septiembre 10 a las 20:00",
+      "day": "2022-09-05",
       "reminder": false
     },
     {
       "text": "Ver la copa Argentina",
-      "day": "31/08 21:30 hs",
+      "day": "2022-08-31",
       "reminder": true,
       "id": 8
+    },
+    {
+      "text": "Subir mi primer version del proyecto",
+      "day": "2022-09-03",
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "text": "finalizar sugerencias de mi app list",
+      "day": "2022-08-03",
+      "reminder": true,
+      "id": 10
+    },
+    {
+      "text": "Subir mi primer version del proyecto",
+      "day": "2022-08-02",
+      "reminder": false,
+      "id": 11
     }
   ]
 }
