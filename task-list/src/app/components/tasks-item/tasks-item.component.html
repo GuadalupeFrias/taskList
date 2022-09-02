@@ -13,8 +13,11 @@
         (click)="onDelete(task)"
         ></fa-icon>
     </h3>
-    <p> 
-        {{task.day|date:'medium'}}
-    </p>
     
+    <p *ngIf="taskExpired(task, now); else vencida"
+    >{{task.day|date:'medium'}}</p>
+<ng-template #vencida ><p  [ngStyle] = "{'background-color':'red','color':'white', 'text-align':'center'}">{{task.day|date:'medium'}} TAREA VENCIDA</p>
+</ng-template>
+<p *ngIf="taskProxExpired(task, now)" [ngStyle] = "{'background-color':'orange','color':'white', 'text-align':'center'}"
+>{{task.day|date:'medium'}} TAREA PROXIMA A VENCER</p>
 </div>

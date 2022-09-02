@@ -56,9 +56,15 @@
     },
     {
       "text": "Subir mi primer version del proyecto",
-      "day": "2022-08-02",
+      "day": "2022-08-04T12:10",
       "reminder": false,
       "id": 11
+    },
+    {
+      "text": "Festejar cumpleaños",
+      "day": "2022-09-27T08:10",
+      "reminder": true,
+      "id": 12
     }
   ]
 }
